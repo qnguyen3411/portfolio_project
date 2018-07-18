@@ -1,0 +1,179 @@
+*{
+	
+	font-family: Arial;
+}
+div.wrapper{
+	width:921px;
+	min-height: 500px;
+	background: linear-gradient( to bottom, rgb(77,56,65),rgb(112,89,99), rgb(77,56,65));
+}
+div.intro{
+	min-height:40px;
+	background-color:rgb(244,244,244);
+	padding-top:20px;
+	padding-bottom:10px;
+}
+div.name{
+	display:inline-block;
+	padding-right:260px;
+
+	
+	font-family: "Comic Sans MS", "Comic Sans", cursive;
+
+	font-size: 35px;
+	color:black;
+	vertical-align:top;
+
+}
+div.title{
+	display:inline-block;
+
+
+	font-size: 25px;
+	vertical-align:top;
+	padding-right:20px;
+	padding-top: 10px;
+
+}
+div.profile{
+	min-height: 200px;
+	margin:20px 20px 0px 20px
+
+}
+div.maincontent{
+	min-height: 300px;
+	margin:0px 0px 20px 20px;
+
+
+}
+div.contact{
+	min-height: 80px;
+	background-color:rgb(244,244,244);;
+	text-align: center;
+	padding:1px;
+
+}
+div.profilepic{
+	height:270px;
+	min-width:395px;
+	background-color: white;
+	background-image: url("Portfolio_images/photo_of_me.jpg");
+	background-size: auto 270px;
+	background-repeat: no-repeat;
+	display:inline-block;
+	margin-right:20px;
+	border:5px solid rgb(180,180,180);
+}
+div.about{
+	height:280px;
+	width: 451px;
+	background: linear-gradient(to right, white , rgb(211,196,208));
+	display:inline-block;
+	vertical-align: top;
+}
+div.about p, div.about a{
+	font-size: 15.5px;
+	margin:10px 10px 10px 10px;
+
+}
+div.about a{
+	text-decoration: underline;
+}
+div.content1, div.content2, div.content3{
+	display: inline-block;
+	width: 277px;
+	min-height: 400px;
+	background: linear-gradient(to right, white , rgb(211,196,208));
+	vertical-align: top;
+	padding-bottom: 10px;
+	
+}
+div.content1, div.content2{
+	margin: 20px 20px 0px 0px;
+}
+div.content3{
+	margin:20px 0px 0px 0px;
+}
+div.appinfo{
+	background-color:transparent;
+	min-height:300px;
+}
+h2,h3{
+	margin:0px;
+	background: linear-gradient( to bottom, rgb(178,178,182),rgb(135,134,147), rgb(178,178,182));
+	padding: 10px 10px 10px 10px;
+	color:white;
+	font-size: 20px;
+
+}
+div.appimg1{
+	min-height: 150px;
+	background-image:url(Portfolio_images/lamode.png);
+	background-size:auto 150px;
+	
+}
+div.appimg2{
+	min-height: 150px;
+	background-image:url(Portfolio_images/familycontacts.png);
+	background-size:auto 150px;
+}
+div.appimg3{
+	min-height: 150px;
+	background-image:url(Portfolio_images/fiveEleven.png);
+	background-size:auto 150px;
+}
+p.appdescript{
+	margin:0px;
+	padding:10px 10px 10px 10px;
+	min-height: 175px;
+	font-size: 15px;
+}
+ul{
+	margin:10px;
+	 -webkit-padding-start: 0px;
+
+}
+div.appinfo ul li{
+	display: inline-block;
+	width:36px;
+	height: 36px;
+	margin:5px;
+	background-color: transparent; 
+
+}
+div.applink{
+	margin-bottom: 10px;
+	background-color: transparent;
+	text-align: center;
+
+}
+div.applink a{
+	background-color: rgb(57,125,98);
+	color:white;
+	text-decoration:  none;
+	border-radius: 8px;
+	border: 1px solid black;
+	padding:5px;
+	margin-top: 10px;
+}
+li img{
+	width: 36px;
+	height: 36px;
+
+}
+div.contact ul li {
+	display: inline-block; 
+}
+div.contact ul li img{
+	width: 25px;
+	height: 25px;}
+
+div.contact ul li span{
+	width: 25px;
+	height: 25px;}
+div.contact p{
+	font-size: 16px;
+	margin-bottom:5px;
+}
+div.contact ul li a{
+	color:black;}
